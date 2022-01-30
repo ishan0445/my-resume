@@ -1,0 +1,158 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.1in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Mohammad Ishan Rayeen}} & Email : \href{mailto:ishan0445@gmail.com}{ishan0445@gmail.com}\\ Mobile : \href{tel:7000583795}{+91-7000583795} &
+\end{tabular*}
+
+%-----------CURRENT ROLE--------------
+\section{Current Role}
+I am working as a \textbf{Software Development Engineer} at \textbf{Apple India Pvt. Ltd}.\\
+My current position is \textbf{Individual Contributor Tech 3} working in \textbf{Privacy and Compliance} space. \\
+
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {International Institute of Information Technology}{Hyderabad, India}
+      {Master of Technology, Computer Science and Engineering, \textbf{2016-2018}}{CGPA: 08.50}
+    \resumeSubheading
+      {Gyan Ganga College of Technology}{Jabalpur, MP, India}
+      {Bachelor of Engineering, Computer Science and Engineering, \textbf{2012-2016}}{CGPA: 08.06}
+    \resumeSubheading
+      {St.Aloysius Sen. Sec. School}{Jabalpur, MP, India}
+      {Intermediate, CBSE, \textbf{2012}}{Percentage: 76.40\%}
+    \resumeSubheading
+      {St.Aloysius Sen. Sec. School}{Jabalpur, MP, India}
+      {Matriculation, CBSE, \textbf{2010}}{Percentage: 77.90\%}
+  \resumeSubHeadingListEnd 
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Apple India Pvt. Ltd}{Hyderabad, Telangana, India}
+      {Individual Contributor Tech 3}{June, 2018 - Present}
+        \resumeItemListStart
+            \resumeItem{Privacy and Compliance}
+            {\\
+            Worked on end to end, development, deployment and testing of a distributed anonymization engine. \\
+            This application is used by various teams to anonymize any personal identifiable information (such as email and user id) entering the Business Intelligence space.\\
+            
+            \textbf{Technology stack:} \\
+            Java, Scala, Docker, Kubernetes, AWS, Cassandra, Oracle, Kafka.
+            }
+        
+        \resumeItemListEnd
+        
+    
+    
+    \resumeSubheading
+      {Thyrocare Technologies Limited}{Navi Mumbai, Maharashtra, India}
+      {Summer Internship}{May, 2017}
+      \resumeItemListStart
+        \resumeItem{Android Developer}
+          {Developed 3 applications:
+          \resumeItemListStart
+            \resumeItem{Blood Technicians (BTech App)}
+            {\\
+            This app is used by the blood technicians(BTech), it displays the orders they are getting, location, amount and the tests they have to perform.}
+            \resumeItem{Order Management System (OMS)}
+            {\\
+            This app is used by the operators, they can view all orders, accept/reject orders, generate new orders or track orders.}
+            \resumeItem{Blood Technician Management System (BMS)}
+            {\\
+            This app is also used by the operators, they transfers orders to the BTechs that are idle, they can get a list of BTechs that are offline, standby, etc.}
+          \resumeItemListEnd
+          }
+      \resumeItemListEnd
+
+
+\section{Skills}
+ \resumeSubHeadingListStart
+    \item{
+     \textbf{Languages}{: \\ 
+     C++, C, Java, Python, Shell Scripting.}
+    }
+    \item{
+     \textbf{Web Development}{: \\
+     HTML, CSS, Javascript, JQuery, NodeJS, MongoDB.}
+    }
+    \item{
+     \textbf{Operating Systems}{: \\
+     Unix, Linux, MacOS, Windows, Android.}
+    }
+ \resumeSubHeadingListEnd
+
+
+\end{document}
